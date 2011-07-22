@@ -1,0 +1,7 @@
+INDEX VERSION 1.126+E:\Modding\Battlecraft Royale\workspace\eclipse\.metadata\.plugins\org.eclipse.jdt.core
+3444757604.index
+137624701.index
+2501520862.index
+1954120464.index
+1182967862.index
+2549917922.index
