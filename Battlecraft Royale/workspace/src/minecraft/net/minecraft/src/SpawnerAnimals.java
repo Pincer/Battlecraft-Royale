@@ -292,7 +292,7 @@ public final class SpawnerAnimals
     static 
     {
         nightSpawnEntities = (new Class[] {
-            net.minecraft.src.EntitySpider.class, net.minecraft.src.EntityZombie.class, net.minecraft.src.EntitySkeleton.class
+            net.minecraft.src.EntityZombie.class
         });
     }
 }

@@ -417,7 +417,7 @@ public abstract class EntityLiving extends Entity
         if(i > 0)
         {
             int j = rand.nextInt(3);
-            for(int k = 0; k < j; k++)
+            for(int k = 0; k <= j; k++)
             {
                 dropItem(i, 1);
             }

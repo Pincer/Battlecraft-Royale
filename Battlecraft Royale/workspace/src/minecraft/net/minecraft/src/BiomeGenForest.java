@@ -16,7 +16,7 @@ public class BiomeGenForest extends BiomeGenBase
 
     public BiomeGenForest()
     {
-        spawnableCreatureList.add(new SpawnListEntry(net.minecraft.src.EntityWolf.class, 2));
+       // spawnableCreatureList.add(new SpawnListEntry(net.minecraft.src.EntityWolf.class, 2));
     }
 
     public WorldGenerator getRandomWorldGenForTrees(Random random)

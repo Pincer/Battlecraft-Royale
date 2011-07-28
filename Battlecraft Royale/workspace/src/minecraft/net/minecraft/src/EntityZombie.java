@@ -20,7 +20,7 @@ public class EntityZombie extends EntityMob
         attackStrength = 5;
     }
 
-    public void onLivingUpdate()
+  /*  public void onLivingUpdate()
     {
         if(worldObj.isDaytime())
         {
@@ -31,7 +31,7 @@ public class EntityZombie extends EntityMob
             }
         }
         super.onLivingUpdate();
-    }
+    }*/
 
     protected String getLivingSound()
     {
@@ -50,6 +50,19 @@ public class EntityZombie extends EntityMob
 
     protected int getDropItemId()
     {
-        return Item.feather.shiftedIndex;
+       int random = (int) (Math.round(Math.random()*5));
+       switch(random){
+       case 1:
+    	   return Item.arrow.shiftedIndex;
+       case 2:
+    	   return Item.swordSteel.shiftedIndex;
+       case 3:
+    	   return Item.bow.shiftedIndex;
+       case 4:
+    	   return Item.fishingRod.shiftedIndex;
+       case 5:
+    	   return Item.snowball.shiftedIndex;
+       }
+       return Item.appleGold.shiftedIndex;
     }
 }

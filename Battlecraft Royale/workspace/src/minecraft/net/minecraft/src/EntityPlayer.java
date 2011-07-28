@@ -25,6 +25,7 @@ public abstract class EntityPlayer extends EntityLiving
     {
         super(world);
         inventory = new InventoryPlayer(this);
+        getRandomWeapon();
         field_9371_f = 0;
         score = 0;
         isSwinging = false;
@@ -43,6 +44,32 @@ public abstract class EntityPlayer extends EntityLiving
         field_9353_B = 180F;
         fireResistance = 20;
         texture = "/mob/char.png";
+    }
+    
+    private void getRandomWeapon(){
+    	int random = (int)Math.round(Math.random()*6);
+    	switch(random){
+    	case 1:
+    		inventory.setInventorySlotContents(0, new ItemStack(Item.bow));
+            inventory.setInventorySlotContents(1, new ItemStack(Item.arrow, 20));
+            break;
+    	case 2:
+    		inventory.setInventorySlotContents(0, new ItemStack(Item.swordSteel));
+    		break;
+    	case 3:
+    		inventory.setInventorySlotContents(0, new ItemStack(Item.swordDiamond));
+    		break;
+    	case 4:
+    		inventory.setInventorySlotContents(0, new ItemStack(Item.fishingRod));
+    		break;
+    	case 5:
+    		inventory.setInventorySlotContents(0, new ItemStack(Item.snowball, 20));
+    		break;
+    	case 6:
+    		inventory.setInventorySlotContents(0, new ItemStack(Item.flintAndSteel));
+    		break;
+    	}
+    	inventory.setInventorySlotContents(8, new ItemStack(Item.appleRed, 3));
     }
 
     protected void entityInit()

@@ -28,16 +28,16 @@ public class BiomeGenBase
         spawnableCreatureList = new ArrayList();
         spawnableWaterCreatureList = new ArrayList();
         enableRain = true;
-        spawnableMonsterList.add(new SpawnListEntry(net.minecraft.src.EntitySpider.class, 10));
+        //spawnableMonsterList.add(new SpawnListEntry(net.minecraft.src.EntitySpider.class, 10));
         spawnableMonsterList.add(new SpawnListEntry(net.minecraft.src.EntityZombie.class, 10));
-        spawnableMonsterList.add(new SpawnListEntry(net.minecraft.src.EntitySkeleton.class, 10));
+       /* spawnableMonsterList.add(new SpawnListEntry(net.minecraft.src.EntitySkeleton.class, 10));
         spawnableMonsterList.add(new SpawnListEntry(net.minecraft.src.EntityCreeper.class, 10));
         spawnableMonsterList.add(new SpawnListEntry(net.minecraft.src.EntitySlime.class, 10));
         spawnableCreatureList.add(new SpawnListEntry(net.minecraft.src.EntitySheep.class, 12));
         spawnableCreatureList.add(new SpawnListEntry(net.minecraft.src.EntityPig.class, 10));
         spawnableCreatureList.add(new SpawnListEntry(net.minecraft.src.EntityChicken.class, 10));
-        spawnableCreatureList.add(new SpawnListEntry(net.minecraft.src.EntityCow.class, 8));
-        spawnableWaterCreatureList.add(new SpawnListEntry(net.minecraft.src.EntitySquid.class, 10));
+        spawnableCreatureList.add(new SpawnListEntry(net.minecraft.src.EntityZombie.class, 10));
+        spawnableWaterCreatureList.add(new SpawnListEntry(net.minecraft.src.EntityZombie.class, 10));*/
     }
 
     private BiomeGenBase setDisableRain()

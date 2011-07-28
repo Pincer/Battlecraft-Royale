@@ -97,7 +97,7 @@ public class EntityMob extends EntityCreature
 
     public boolean getCanSpawnHere()
     {
-        int i = MathHelper.floor_double(posX);
+       /* int i = MathHelper.floor_double(posX);
         int j = MathHelper.floor_double(boundingBox.minY);
         int k = MathHelper.floor_double(posZ);
         if(worldObj.getSavedLightValue(EnumSkyBlock.Sky, i, j, k) > rand.nextInt(32))
@@ -112,7 +112,8 @@ public class EntityMob extends EntityCreature
             l = worldObj.getBlockLightValue(i, j, k);
             worldObj.skylightSubtracted = i1;
         }
-        return l <= rand.nextInt(8) && super.getCanSpawnHere();
+        return l <= rand.nextInt(8) && super.getCanSpawnHere();*/
+    	return true;
     }
 
     protected int attackStrength;

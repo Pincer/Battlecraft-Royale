@@ -1,3 +1,10 @@
-2011-07-22 20:38 -    commands.checkupdates - WARNING - !! Updates available. Please run updatemcp to get them. !!
-2011-07-22 20:38 -    commands.checkjars - WARNING - !! Missing jar file jars/minecraft_server.jar. Aborting !!
-2011-07-22 20:38 -    commands.checksources - WARNING - !! Can not find server sources !!
+2011-07-28 21:17 -    commands.runmc - ERROR - java.lang.NoClassDefFoundError: net/minecraft/server/MinecraftServer
+2011-07-28 21:17 -    commands.runmc - ERROR - Caused by: java.lang.ClassNotFoundException: net.minecraft.server.MinecraftServer
+2011-07-28 21:17 -    commands.runmc - ERROR - at java.net.URLClassLoader$1.run(Unknown Source)
+2011-07-28 21:17 -    commands.runmc - ERROR - at java.security.AccessController.doPrivileged(Native Method)
+2011-07-28 21:17 -    commands.runmc - ERROR - at java.net.URLClassLoader.findClass(Unknown Source)
+2011-07-28 21:17 -    commands.runmc - ERROR - at java.lang.ClassLoader.loadClass(Unknown Source)
+2011-07-28 21:17 -    commands.runmc - ERROR - at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+2011-07-28 21:17 -    commands.runmc - ERROR - at java.lang.ClassLoader.loadClass(Unknown Source)
+2011-07-28 21:17 -    commands.runmc - ERROR - Could not find the main class: net.minecraft.server.MinecraftServer.  Program will exit.
+2011-07-28 21:17 -    commands.runmc - ERROR - Exception in thread "main"
