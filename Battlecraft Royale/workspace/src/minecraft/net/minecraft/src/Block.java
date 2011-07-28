@@ -809,7 +809,7 @@ public class Block
         fire = (BlockFire)(new BlockFire(51, 31)).setHardness(0.0F).setLightValue(1.0F).setStepSound(soundWoodFootstep).setBlockName("fire").disableStats().disableNeighborNotifyOnMetadataChange();
         mobSpawner = (new BlockMobSpawner(52, 65)).setHardness(5F).setStepSound(soundMetalFootstep).setBlockName("mobSpawner").disableStats();
         stairCompactPlanks = (new BlockStairs(53, planks)).setBlockName("stairsWood").disableNeighborNotifyOnMetadataChange();
-        chest = (new BlockChest(54)).setHardness(2.5F).setStepSound(soundWoodFootstep).setBlockName("chest").disableNeighborNotifyOnMetadataChange();
+        chest = (new BlockChest(54)).setHardness(2.5F).setBlockUnbreakable().setResistance(60000F).setStepSound(soundWoodFootstep).setBlockName("chest").disableNeighborNotifyOnMetadataChange();
         redstoneWire = (new BlockRedstoneWire(55, 164)).setHardness(0.0F).setStepSound(soundPowderFootstep).setBlockName("redstoneDust").disableStats().disableNeighborNotifyOnMetadataChange();
         oreDiamond = (new BlockOre(56, 50)).setHardness(3F).setResistance(5F).setStepSound(soundStoneFootstep).setBlockName("oreDiamond");
         blockDiamond = (new BlockOreStorage(57, 24)).setHardness(5F).setResistance(10F).setStepSound(soundMetalFootstep).setBlockName("blockDiamond");

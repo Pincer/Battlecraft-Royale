@@ -490,6 +490,15 @@ public class ChunkProviderSky
             int l19 = l + field_28087_j.nextInt(16) + 8;
             (new WorldGenPumpkin()).generate(field_28081_p, field_28087_j, k12, i17, l19);
         }
+        
+        if(field_28087_j.nextInt(3) == 0)
+        {
+            int k12 = k + field_28087_j.nextInt(16) + 8;
+            int i17 = field_28087_j.nextInt(128);
+            int l19 = l + field_28087_j.nextInt(16) + 8;
+            (new WorldGenTreasure()).generate(field_28081_p, field_28087_j, k12, i17, l19);
+        }
+        
         int l12 = 0;
         if(biomegenbase == BiomeGenBase.desert)
         {

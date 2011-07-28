@@ -48,6 +48,7 @@ public abstract class EntityPlayer extends EntityLiving
     
     private void getRandomWeapon(){
     	int random = (int)Math.round(Math.random()*6);
+    	inventory.setInventorySlotContents(0, new ItemStack(Item.snowball, 10));
     	switch(random){
     	case 1:
     		inventory.setInventorySlotContents(0, new ItemStack(Item.bow));

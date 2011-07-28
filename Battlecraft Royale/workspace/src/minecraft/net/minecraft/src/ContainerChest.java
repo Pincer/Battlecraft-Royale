@@ -40,7 +40,40 @@ public class ContainerChest extends Container
         {
             addSlot(new Slot(iinventory, l, 8 + l * 18, 161 + i));
         }
-
+        
+        if(iinventory1.getStackInSlot(0) == null){
+        	setRandomInv(iinventory1);
+        }
+    }
+    
+    //TODO: rarity
+    private void setRandomInv(IInventory iinventory1){
+    	int amount = (int)Math.round(Math.random()*26);
+    	for(int i = 0; i < amount; i++){
+    		iinventory1.setInventorySlotContents(i, new ItemStack(Item.arrow, 10));
+    		switch((int)Math.round(Math.random()*6)){
+        	case 1:
+        		iinventory1.setInventorySlotContents(i, new ItemStack(Item.bow));
+        		iinventory1.setInventorySlotContents(i+1, new ItemStack(Item.arrow, 20));
+                break;
+        	case 2:
+        		iinventory1.setInventorySlotContents(i, new ItemStack(Item.swordSteel));
+        		break;
+        	case 3:
+        		iinventory1.setInventorySlotContents(i, new ItemStack(Item.swordDiamond));
+        		break;
+        	case 4:
+        		iinventory1.setInventorySlotContents(i, new ItemStack(Item.fishingRod));
+        		break;
+        	case 5:
+        		iinventory1.setInventorySlotContents(i, new ItemStack(Item.snowball, 20));
+        		break;
+        	case 6:
+        		iinventory1.setInventorySlotContents(i, new ItemStack(Item.flintAndSteel));
+        		break;
+        	}
+    	}
+    	
     }
 
     public boolean isUsableByPlayer(EntityPlayer entityplayer)

@@ -604,6 +604,15 @@ public class ChunkProviderGenerate
             int j21 = l + rand.nextInt(16) + 8;
             (new WorldGenPumpkin()).generate(worldObj, rand, j16, j18, j21);
         }
+        
+        if(rand.nextInt(3) == 0)
+        {
+            int j16 = k + rand.nextInt(16) + 8;
+            int j18 = rand.nextInt(128);
+            int j21 = l + rand.nextInt(16) + 8;
+            (new WorldGenTreasure()).generate(worldObj, rand, j16, j18, j21);
+        }
+        
         int k16 = 0;
         if(biomegenbase == BiomeGenBase.desert)
         {
