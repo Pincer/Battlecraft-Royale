@@ -1,0 +1,73 @@
+package net.minecraft.src;
+
+import java.util.Random;
+
+public class WorldGenHouses extends WorldGenerator {
+	
+	public WorldGenHouses()
+    {
+    }
+
+    public boolean generate(World world, Random random, int i, int j, int k)
+    {
+        for(int l = 0; l < 16; l++)
+        {
+            int i1 = (i + random.nextInt(8)) - random.nextInt(8);
+            int j1 = (j + random.nextInt(4)) - random.nextInt(4);
+            int k1 = (k + random.nextInt(8)) - random.nextInt(8);
+            if(world.isAirBlock(i1, j1, k1) && (world.getBlockId(i1, j1 - 1, k1) == Block.grass.blockID || world.getBlockId(i1, j1 - 1, k1) == Block.snow.blockID || world.getBlockId(i1, j1 - 1, k1) == Block.sand.blockID) && Block.chest.canPlaceBlockAt(world, i1, j1, k1))
+            {
+            	//prepare Ground TODO infinite loop
+            	/*int id = world.getBlockId(i1, j1-1, k1);
+            	for(int x = 0; x <= 4; x++){
+            		for(int y = 0; y <= 5; x++){
+            			int count = 1;
+                    	while(world.isAirBlock(i1+1, j1-count, k1)){
+                    		world.setBlockAndMetadata(i1+y, j1-count, k1+x, id, random.nextInt(4));
+                    		count++;
+                    	}
+            		}
+            	}*/
+            	
+            	//Front
+            	for(int x = 0; x < 4; x++){
+                	for(int y = 0; y < 3; y++){
+                		world.setBlockAndMetadata(i1, j1+y, k1+x, Block.planks.blockID, random.nextInt(4));
+                	}
+                }
+                //Door
+                world.setBlockAndMetadata(i1, j1, k1+1, Block.doorWood.blockID, random.nextInt(4));
+                world.setBlockAndMetadata(i1, j1+1, k1+1, Block.doorWood.blockID, random.nextInt(4));
+                //Sides
+                for(int x = 1; x < 4; x++){
+                	for(int y = 0; y < 3; y++){
+                		world.setBlockAndMetadata(i1+x, j1+y, k1, Block.planks.blockID, random.nextInt(4));
+                		world.setBlockAndMetadata(i1+x, j1+y, k1+3, Block.planks.blockID, random.nextInt(4));
+                	}
+                }
+                //Back
+                for(int x = 0; x < 4; x++){
+                	for(int y = 0; y < 3; y++){
+                		world.setBlockAndMetadata(i1+4, j1+y, k1+x, Block.planks.blockID, random.nextInt(4));
+                	}
+                }
+                //Roof
+                for(int x = 1; x < 4; x++){
+                	for(int y = 1; y < 3; y++){
+                		world.setBlockAndMetadata(i1+x, j1+3, k1+y, Block.planks.blockID, random.nextInt(4));
+                	}
+                }
+                //Fill with air
+                for(int x = 1; x < 4; x++){
+                	for(int y = 1; y < 3; y++){
+                		for(int z = 1; z < 3; z++){
+                			world.removeBlockTileEntity(i1+x, j1+y, k1+z);
+                		}
+                	}
+                }
+            }
+        }
+
+        return true;
+    }
+}

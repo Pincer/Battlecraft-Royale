@@ -8,14 +8,14 @@
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="126" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
-<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="141" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="80" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="80" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="107" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="206" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -29,42 +29,17 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EntityZombie.java" partName="EntityZombie.java" path="E:/Modding/Battlecraft Royale/workspace/src/minecraft/net/minecraft/src/EntityZombie.java" title="EntityZombie.java" tooltip="Client/src/net/minecraft/src/EntityZombie.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Client/src/net/minecraft/src/EntityZombie.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1735" selectionTopPixel="481"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EntityPlayer.java" partName="EntityPlayer.java" path="E:/Modding/Battlecraft Royale/workspace/src/minecraft/net/minecraft/src/EntityPlayer.java" title="EntityPlayer.java" tooltip="Client/src/net/minecraft/src/EntityPlayer.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Client/src/net/minecraft/src/EntityPlayer.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="46" selectionOffset="1913" selectionTopPixel="575"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EntityLiving.java" partName="EntityLiving.java" path="E:/Modding/Battlecraft Royale/workspace/src/minecraft/net/minecraft/src/EntityLiving.java" title="EntityLiving.java" tooltip="Client/src/net/minecraft/src/EntityLiving.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Client/src/net/minecraft/src/EntityLiving.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="12289" selectionTopPixel="3855"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WorldGenTreasure.java" partName="WorldGenTreasure.java" path="E:/Modding/Battlecraft Royale/workspace/src/minecraft/net/minecraft/src/WorldGenTreasure.java" title="WorldGenTreasure.java" tooltip="Client/src/net/minecraft/src/WorldGenTreasure.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WorldGenTreasure.java" partName="WorldGenTreasure.java" path="D:/Modding/Battlecraft Royale/workspace/src/minecraft/net/minecraft/src/WorldGenTreasure.java" title="WorldGenTreasure.java" tooltip="Client/src/net/minecraft/src/WorldGenTreasure.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Client/src/net/minecraft/src/WorldGenTreasure.java"/>
-<editorState selectionHorizontalPixel="17" selectionLength="0" selectionOffset="274" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="17" selectionLength="0" selectionOffset="926" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BlockChest.java" partName="BlockChest.java" path="E:/Modding/Battlecraft Royale/workspace/src/minecraft/net/minecraft/src/BlockChest.java" title="BlockChest.java" tooltip="Client/src/net/minecraft/src/BlockChest.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Client/src/net/minecraft/src/BlockChest.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="550" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ContainerChest.java" partName="ContainerChest.java" path="E:/Modding/Battlecraft Royale/workspace/src/minecraft/net/minecraft/src/ContainerChest.java" title="ContainerChest.java" tooltip="Client/src/net/minecraft/src/ContainerChest.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Client/src/net/minecraft/src/ContainerChest.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1482" selectionTopPixel="616"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Block.java" partName="Block.java" path="E:/Modding/Battlecraft Royale/workspace/src/minecraft/net/minecraft/src/Block.java" title="Block.java" tooltip="Client/src/net/minecraft/src/Block.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Client/src/net/minecraft/src/Block.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="31434" selectionTopPixel="11685"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WorldGenHouses.java" partName="WorldGenHouses.java" path="D:/Modding/Battlecraft Royale/workspace/src/minecraft/net/minecraft/src/WorldGenHouses.java" title="WorldGenHouses.java" tooltip="Client/src/net/minecraft/src/WorldGenHouses.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Client/src/net/minecraft/src/WorldGenHouses.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1197" selectionTopPixel="840"/>
 </editor>
 </editors>
 <views>
@@ -119,9 +94,6 @@
 </xmlDefinedFilters>
 </customFilters>
 </viewState>
-</view>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
-<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
@@ -182,7 +154,6 @@
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.search.ui.views.SearchView"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -206,7 +177,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.18034752" ratioLeft="301" ratioRight="1368" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.625" ratioLeft="570" ratioRight="342" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.8165548" ratioLeft="730" ratioRight="164" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -225,13 +196,11 @@
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.72161174" ratioLeft="985" ratioRight="380" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -241,7 +210,6 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Client/src/net/minecraft/src/WorldGenPumpkin.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Client/src/net/minecraft/src/ChunkProviderGenerate.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Client/src/net/minecraft/src/ChunkProviderSky.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Client/src/net/minecraft/src/WorldGenTreasure.java"/>
@@ -252,156 +220,163 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Client/src/net/minecraft/src/ContainerChest.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Client/src/net/minecraft/src/GuiChest.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Client/src/net/minecraft/src/Block.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Client/src/net/minecraft/src/ContainerChest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Client/src/net/minecraft/src/BlockChest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Client/src/net/minecraft/src/WorldGenTreasure.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Client/src/net/minecraft/src/EntityZombie.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Client/src/net/minecraft/src/EntityLiving.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Client/src/net/minecraft/src/WorldGenTreasure.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Client/src/net/minecraft/src/WorldGenHouses.java"/>
 </editors>
-<item historyLabel="ChunkProviderSky.java" index="2">
-<position/>
-</item>
-<item historyLabel="ChunkProviderSky.java" index="2">
-<position/>
-</item>
-<item historyLabel="ChunkProviderSky.java" index="2">
-<position/>
-</item>
-<item historyLabel="ChunkProviderGenerate.java" index="1">
-<position/>
-</item>
-<item historyLabel="ChunkProviderGenerate.java" index="1">
-<position/>
-</item>
-<item historyLabel="ChunkProviderGenerate.java" index="1">
-<position/>
-</item>
-<item historyLabel="ChunkProviderSky.java" index="2">
+<item historyLabel="ChunkProviderGenerate.java" index="0">
 <position info="not_deleted" x="22714" y="15"/>
 </item>
-<item historyLabel="ChunkProviderSky.java" index="2">
-<position info="not_deleted" x="11629" y="8"/>
-</item>
-<item historyLabel="ChunkProviderSky.java" index="2">
-<position info="not_deleted" x="19695" y="15"/>
-</item>
-<item historyLabel="ChunkProviderGenerate.java" index="1">
-<position info="not_deleted" x="19695" y="15"/>
-</item>
-<item historyLabel="ChunkProviderGenerate.java" index="1">
-<position info="not_deleted" x="13723" y="8"/>
-</item>
-<item historyLabel="ChunkProviderGenerate.java" index="1">
-<position info="not_deleted" x="22714" y="15"/>
-</item>
-<item historyLabel="WorldGenPumpkin.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="WorldGenTreasure.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="WorldGenPumpkin.java" index="0">
-<position info="not_deleted" x="402" y="701"/>
-</item>
-<item historyLabel="WorldGenTreasure.java" index="3">
-<position info="not_deleted" x="611" y="0"/>
-</item>
-<item historyLabel="WorldGenPumpkin.java" index="0">
-<position info="not_deleted" x="402" y="701"/>
-</item>
-<item historyLabel="ChunkProviderGenerate.java" index="1">
-<position info="not_deleted" x="22714" y="15"/>
-</item>
-<item historyLabel="ChunkProviderSky.java" index="2">
+<item historyLabel="ChunkProviderSky.java" index="1">
 <position info="not_deleted" x="23148" y="266"/>
 </item>
-<item historyLabel="ChunkProviderSky.java" index="2">
+<item historyLabel="ChunkProviderSky.java" index="1">
 <position info="not_deleted" x="11629" y="8"/>
 </item>
-<item historyLabel="ChunkProviderSky.java" index="2">
+<item historyLabel="ChunkProviderSky.java" index="1">
 <position info="not_deleted" x="19695" y="15"/>
 </item>
-<item historyLabel="EntityLiving.java" index="4">
+<item historyLabel="EntityLiving.java" index="3">
 <position info="not_deleted" x="12289" y="0"/>
 </item>
-<item historyLabel="EntityPlayer.java" index="5">
+<item historyLabel="EntityPlayer.java" index="4">
 <position info="not_deleted" x="2035" y="0"/>
 </item>
-<item historyLabel="WorldGenTreasure.java" index="3">
+<item historyLabel="WorldGenTreasure.java" index="2">
 <position info="not_deleted" x="856" y="0"/>
 </item>
-<item historyLabel="WorldGenerator.java" index="6">
+<item historyLabel="WorldGenerator.java" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="WorldGenTreasure.java" index="3">
+<item historyLabel="WorldGenTreasure.java" index="2">
 <position info="not_deleted" x="856" y="0"/>
 </item>
-<item historyLabel="ChunkProviderGenerate.java" index="1">
+<item historyLabel="ChunkProviderGenerate.java" index="0">
 <position info="not_deleted" x="22714" y="15"/>
 </item>
-<item historyLabel="WorldGenTreasure.java" index="3">
+<item historyLabel="WorldGenTreasure.java" index="2">
 <position info="not_deleted" x="274" y="0"/>
 </item>
-<item historyLabel="BlockChest.java" index="7">
+<item historyLabel="BlockChest.java" index="6">
 <position info="not_deleted" x="1396" y="0"/>
 </item>
-<item historyLabel="ContainerChest.java" index="8">
+<item historyLabel="ContainerChest.java" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ContainerChest.java" index="8">
+<item historyLabel="ContainerChest.java" index="7">
 <position/>
 </item>
-<item historyLabel="BlockChest.java" index="7">
+<item historyLabel="BlockChest.java" index="6">
 <position info="not_deleted" x="1396" y="0"/>
 </item>
-<item historyLabel="WorldGenTreasure.java" index="3">
+<item historyLabel="WorldGenTreasure.java" index="2">
 <position info="not_deleted" x="274" y="0"/>
 </item>
-<item historyLabel="EntityPlayer.java" index="5">
+<item historyLabel="EntityPlayer.java" index="4">
 <position info="not_deleted" x="2035" y="0"/>
 </item>
-<item historyLabel="ContainerChest.java" index="8">
+<item historyLabel="ContainerChest.java" index="7">
 <position/>
 </item>
-<item historyLabel="ContainerChest.java" index="8">
+<item historyLabel="ContainerChest.java" index="7">
 <position/>
 </item>
-<item historyLabel="ContainerChest.java" index="8">
+<item historyLabel="ContainerChest.java" index="7">
 <position info="not_deleted" x="1426" y="0"/>
 </item>
-<item historyLabel="ContainerChest.java" index="8">
+<item historyLabel="ContainerChest.java" index="7">
 <position info="not_deleted" x="2487" y="0"/>
 </item>
-<item historyLabel="EntityPlayer.java" index="5">
+<item historyLabel="EntityPlayer.java" index="4">
 <position info="not_deleted" x="2045" y="748"/>
 </item>
-<item historyLabel="ContainerChest.java" index="8">
+<item historyLabel="ContainerChest.java" index="7">
 <position/>
 </item>
-<item historyLabel="EntityPlayer.java" index="5">
+<item historyLabel="EntityPlayer.java" index="4">
 <position info="not_deleted" x="1913" y="46"/>
 </item>
-<item historyLabel="ContainerChest.java" index="8">
+<item historyLabel="ContainerChest.java" index="7">
 <position/>
 </item>
-<item historyLabel="ContainerChest.java" index="8">
+<item historyLabel="ContainerChest.java" index="7">
 <position info="not_deleted" x="429" y="14"/>
 </item>
-<item historyLabel="GuiChest.java" index="9">
+<item historyLabel="GuiChest.java" index="8">
 <position info="not_deleted" x="571" y="14"/>
 </item>
-<item historyLabel="ContainerChest.java" index="8">
+<item historyLabel="ContainerChest.java" index="7">
 <position info="not_deleted" x="429" y="14"/>
 </item>
-<item historyLabel="GuiChest.java" index="9">
+<item historyLabel="GuiChest.java" index="8">
 <position info="not_deleted" x="571" y="14"/>
 </item>
-<item historyLabel="ContainerChest.java" index="8">
+<item historyLabel="ContainerChest.java" index="7">
 <position info="not_deleted" x="429" y="14"/>
 </item>
-<item historyLabel="ContainerChest.java" index="8">
+<item historyLabel="ContainerChest.java" index="7">
 <position info="not_deleted" x="1482" y="0"/>
 </item>
-<item historyLabel="BlockChest.java" index="7">
+<item historyLabel="BlockChest.java" index="6">
 <position info="not_deleted" x="550" y="10"/>
 </item>
-<item active="true" historyLabel="Block.java" index="10">
+<item historyLabel="Block.java" index="9">
 <position info="not_deleted" x="31354" y="18"/>
+</item>
+<item historyLabel="Block.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ContainerChest.java" index="10">
+<position info="not_deleted" x="1482" y="0"/>
+</item>
+<item historyLabel="BlockChest.java" index="11">
+<position info="not_deleted" x="3630" y="0"/>
+</item>
+<item historyLabel="Block.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ContainerChest.java" index="10">
+<position info="not_deleted" x="1667" y="0"/>
+</item>
+<item historyLabel="WorldGenTreasure.java" index="12">
+<position info="not_deleted" x="926" y="0"/>
+</item>
+<item historyLabel="BlockChest.java" index="11">
+<position info="not_deleted" x="3630" y="0"/>
+</item>
+<item historyLabel="ContainerChest.java" index="10">
+<position info="not_deleted" x="1872" y="0"/>
+</item>
+<item historyLabel="EntityZombie.java" index="13">
+<position info="not_deleted" x="1735" y="0"/>
+</item>
+<item historyLabel="EntityLiving.java" index="14">
+<position info="not_deleted" x="12289" y="0"/>
+</item>
+<item historyLabel="EntityZombie.java" index="13">
+<position info="not_deleted" x="1735" y="0"/>
+</item>
+<item historyLabel="WorldGenTreasure.java" index="15">
+<position info="not_deleted" x="926" y="0"/>
+</item>
+<item historyLabel="WorldGenHouses.java" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="WorldGenHouses.java" index="16">
+<position info="not_deleted" x="893" y="0"/>
+</item>
+<item historyLabel="WorldGenHouses.java" index="16">
+<position info="not_deleted" x="1082" y="0"/>
+</item>
+<item historyLabel="WorldGenHouses.java" index="16">
+<position info="not_deleted" x="1075" y="0"/>
+</item>
+<item active="true" historyLabel="WorldGenHouses.java" index="16">
+<position info="not_deleted" x="1081" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -420,6 +395,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WorldGenHouses.java" tooltip="Client/src/net/minecraft/src/WorldGenHouses.java">
+<persistable path="/Client/src/net/minecraft/src/WorldGenHouses.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Block.java" tooltip="Client/src/net/minecraft/src/Block.java">
 <persistable path="/Client/src/net/minecraft/src/Block.java"/>
 </file>
@@ -461,9 +439,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ItemRenderer.java" tooltip="Client/src/net/minecraft/src/ItemRenderer.java">
 <persistable path="/Client/src/net/minecraft/src/ItemRenderer.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ItemTool.java" tooltip="Client/src/net/minecraft/src/ItemTool.java">
-<persistable path="/Client/src/net/minecraft/src/ItemTool.java"/>
 </file>
 </mruList>
 </workbench>
